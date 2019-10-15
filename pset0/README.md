@@ -13,6 +13,7 @@ You might find these resources helpful (note that they show an earlier version o
 1. [Scratch for Budding Computer Scientists](https://cs.harvard.edu/malan/scratch/)
 2. [Getting Started with Scratch](https://resources.scratch.mit.edu/www/guides/en/Getting-Started-Guide-Scratch2.pdf)
 3. [Scratch Cards](https://scratch.mit.edu/info/cards/)
+
 Stuck for ideas? Here are your predecessors’ projects from last year. But try to think of an idea on your own, and then set out to implement it. However, don’t try to implement the entirety of your project all at once: pluck off one piece at a time. In other words, take baby steps: write a bit of code (i.e., drag and drop a few puzzle pieces), test, write a bit more, test, and so forth. And select **File > Save Now** every few minutes so that you don’t lose any work!
 
 If, along the way, you find it too difficult to implement some feature, try not to fret; alter your design or work around the problem. If you set out to implement an idea that you find fun, odds are you won’t find it too hard to satisfy the above requirements.
