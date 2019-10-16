@@ -23,12 +23,19 @@ will safely convert 0.20 (or even 0.200000002980232238769531250) to 20.
 Your program should behave per the examples below.
 
 `$ ./cash`
+
 `Change owed: 0.41`
+
 `4`
+
 `$ ./cash`
+
 `Change owed: -0.41`
+
 `Change owed: foo`
+
 `Change owed: 0.41`
+
 `4`
 
 ## Hints
