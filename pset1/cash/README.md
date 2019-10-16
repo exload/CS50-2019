@@ -22,14 +22,14 @@ Implement, in `cash.c` at right, a program that first asks the user how much cha
 will safely convert 0.20 (or even 0.200000002980232238769531250) to 20.
 Your program should behave per the examples below.
 
-`$ ./cash`
-`Change owed: 0.41`
-`4`
-`$ ./cash`
-`Change owed: -0.41`
-`Change owed: foo`
-`Change owed: 0.41`
-`4`
+`$ ./cash
+Change owed: 0.41
+4
+$ ./cash
+Change owed: -0.41
+Change owed: foo
+Change owed: 0.41
+4`
 
 ## Hints
 [Cash (C)](https://youtu.be/2QZSsaSfB3A)
