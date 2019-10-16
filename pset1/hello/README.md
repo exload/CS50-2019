@@ -21,10 +21,12 @@ Now, before we can execute the program at right, recall that we must *compile* i
 And then execute this one again:
 
 `ls`
+
 This time, you should see not only `hello.c` but `a.out` listed as well? (You can see the same graphically if you click that folder icon again.) That’s because clang has translated the source code in `hello.c` into machine code in `a.out`, which happens to stand for “assembler output,” but more on that another time.
 Now run the program by executing the below.
 
 `./a.out`
+
 Hello, world, indeed!
 
 ## Naming Programs
