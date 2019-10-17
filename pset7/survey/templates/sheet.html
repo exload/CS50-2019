@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+    <!-- http://getbootstrap.com/docs/4.1/content/typography/ -->
+    <h1 class="mb-3">Registered data</h1>
+	
+	<table class="table table-striped">
+		<thead class="thead-dark">
+			<tr>
+				<th>Login name</th>
+				<th>Server name</th>
+				<th>Hash type</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for node in nodes %}
+				<tr>
+					<td>{{ node[0] }}
+					<td>{{ node[1] }}
+					<td>{{ node[2] }}
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+
+{% endblock %}

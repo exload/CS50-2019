@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Purge user from C$50 Finance
+{% endblock %}
+
+{% block main %}
+    <form action="/purge" method="post">
+        <div class="form-group">
+            <input class="form-control" name="password" placeholder="Password" type="password">
+        </div>
+        <div class="form-group">
+            <input class="form-control" name="confirm" placeholder="Password confirm" type="password">
+        </div>
+        <button class="btn btn-primary" type="submit">Change password</button>
+    </form>
+{% endblock %}
